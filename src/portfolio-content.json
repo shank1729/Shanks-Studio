@@ -1,0 +1,140 @@
+{
+  "profile": {
+    "name": "Shankholi Ray",
+    "nickname": "Shankholi",
+    "tagline": "I debug errors in code, and occasionally in life’s logic.",
+    "greeting": "Hi, I’m Shankholi Ray.",
+    "headline": "Backend Developer · Azure Integration Engineer",
+    "personalNote": "Backend Developer · Azure Integration Engineer",
+    "intro": "I’m a software engineer who likes getting to the bottom of things—whether that means untangling a production issue, making a cloud workflow faster, or building something from an idea. I work with Java, Spring Boot, .NET, Azure, and the MERN stack to help services communicate and data reach the right place.",
+    "email": "shankandmail@gmail.com",
+    "links": [
+      {"label": "GitHub", "url": "https://github.com/shank1729"},
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/shankholi-ray-596ab7118/"},
+      {"label": "LeetCode", "url": "https://leetcode.com/u/shankandmail/"}
+    ]
+  },
+  "about": [
+    ["Beyond the day job", "I like figuring things out, whether it’s a DSA problem on LeetCode or a new technology I haven’t used before. I enjoy chess, photography, and editing videos too. I’m trained in Odissi, an Indian classical dance form, and I’m also drawn to spirituality and meditation."],
+    ["Make yourself at home", "This little world is a tour of what I build, how I work, and what I’m learning. Choose an object to explore a project, visit my workbench, or follow my journey."]
+  ],
+  "skills": [
+    ["Java & backend", "Java, Spring Boot, Hibernate/JPA, REST APIs, OAuth, WebSockets, and STOMP · .NET / .NET Core and C#."],
+    ["Cloud & integration", "Microsoft Azure · Functions, Durable Functions, Service Bus, Event Hubs, Cosmos DB, Blob Storage, API Management (APIM), and Key Vault."],
+    ["Deployment & containers", "Azure Kubernetes Service (AKS) · Application deployments through existing Azure DevOps pipelines across Dev, SIT, UAT, pre-production, and production."],
+    ["Architecture & messaging", "Microservices, event-driven and serverless architecture, distributed systems, asynchronous messaging, WebSockets, and STOMP."],
+    ["Data & observability", "Cosmos DB, MongoDB, MySQL · Application Insights, KQL, monitoring and alerts, application logs, Azure Portal, and production troubleshooting."],
+    ["Testing & code quality", "xUnit, unit testing, code coverage, SonarCloud code-smell analysis, and pull-request reviews."],
+    ["Languages & everyday toolkit", "Java, C#, Python, JavaScript, SQL · Git, GitHub, Postman, Maven, Azure DevOps, YAML, and Swagger / OpenAPI."],
+    ["Full-stack & 3D web", "MERN: MongoDB, Express, React, and Node.js · JavaScript and Three.js."]
+  ],
+  "experience": {
+    "company": "Tata Consultancy Services",
+    "role": "Azure Integration Engineer",
+    "focus": "Backend APIs · Event-driven integrations",
+    "period": "Feb 2025 — Present",
+    "highlights": [
+      ["Backend APIs & integrations", "Developed REST APIs and event-driven integrations across 20+ .NET Azure Function Apps and five Spring Boot applications on AKS, including Cosmos DB data retrieval and payload mapping."],
+      ["Messaging performance", "Used concurrent dispatch to bring Event Hubs publishing latency to 320–500 ms per message. Reused Service Bus connections to reduce bulk-publishing overhead."],
+      ["Transaction recovery", "Developed a shared retry API and recovery tooling with destination-specific retries, Service Bus dead-letter handling, and duplicate detection. Recovered approximately 500 failed production transactions."],
+      ["Operational automation", "Built .NET console applications and APIs for bulk transfers of approximately 1,000 messages, reducing manual operational work."],
+      ["Durable workflows", "Developed scheduled Azure Durable Functions workflows to filter and aggregate Blob Storage payloads, batching up to 200 JSON files per downstream API request."],
+      ["Testing & reviews", "Wrote xUnit tests, assessed code coverage and code smells with SonarCloud, and performed pull-request reviews."],
+      ["Release delivery", "Handled application deployments across Dev, SIT, UAT, pre-production, and production using existing Azure DevOps pipelines."],
+      ["Monitoring & diagnosis", "Configured Application Insights alerts and KQL queries for interface-specific exception monitoring and transaction-log analysis."]
+    ],
+    "metrics": [
+      {"value": "20+", "label": "Azure Function Apps"},
+      {"value": "5", "label": "Spring Boot apps on AKS"},
+      {"value": "~500", "label": "Failed transactions recovered"}
+    ]
+  },
+  "education": {
+    "institution": "Techno Main Salt Lake",
+    "degree": "B.Tech in Information Technology",
+    "period": "2020 — 2024",
+    "grade": "8.6 / 10 CGPA"
+  },
+  "certifications": [
+    {"name": "Microsoft Azure Fundamentals", "detail": "AZ-900 · Microsoft"},
+    {"name": "Claude Certified Developer — Foundation", "detail": "Anthropic"},
+    {"name": "Google Generative AI Leader", "detail": "Google"}
+  ],
+  "achievements": [
+    {"value": "1709", "label": "LeetCode contest rating", "link": {"label": "Problem-solving profile", "url": "https://leetcode.com/u/shankandmail/"}}
+  ],
+  "projectOrder": ["collab", "atlas", "emotify", "restaurants", "readshorts", "targeted"],
+  "projects": {
+    "collab": {
+      "name": "Collab Loop",
+      "shelfLabel": "Collab Loop",
+      "icon": "/projects/collab-loop.svg",
+      "type": "JAVA / REAL-TIME COLLABORATION",
+      "text": "A live workspace for shared documents and collaborative whiteboards.",
+      "details": "A React frontend and Spring Boot backend bring live document editing and shared whiteboards into one workspace. REST APIs and STOMP-over-WebSocket messaging support collaboration; PostgreSQL stores documents and version history, with Flyway migrations.",
+      "highlights": ["Shared whiteboards with pens, colors, and shapes for sketching ideas together", "JWT authentication and owner/editor/viewer document sharing", "Live document editing, collaborator presence, and version history"],
+      "stack": ["Java", "Spring Boot", "React", "PostgreSQL", "WebSockets / STOMP", "Spring Security", "Flyway"],
+      "links": [{"label": "Open live app", "url": "https://collabloop.129-225-102-84.sslip.io/"}]
+    },
+    "readshorts": {
+      "name": "Readshorts",
+      "shelfLabel": "Readshorts",
+      "type": "MERN / CONTENT PLATFORM",
+      "text": "A publishing and reading space for stories, blogs, and articles.",
+      "details": "A React reading and writing interface backed by Express APIs and MongoDB models. Content can be created, browsed by type and category, and opened in a dedicated reading view.",
+      "highlights": ["Post creation and category-based browsing", "Separate flows for stories, blogs, and articles", "React frontend connected to Express and MongoDB APIs"],
+      "stack": ["React", "Node.js", "Express", "MongoDB", "Mongoose", "Axios"],
+      "links": [{"label": "Frontend source", "url": "https://github.com/shank1729/readshorts-frontend"}, {"label": "Backend source", "url": "https://github.com/shank1729/readshorts-backend"}]
+    },
+    "restaurants": {
+      "name": "Zomato Clone",
+      "shelfLabel": "Zomato Clone",
+      "type": "MERN / ZOMATO-INSPIRED APP",
+      "text": "A restaurant discovery and ordering project with a Zomato-inspired interface.",
+      "details": "A React frontend and Express/MongoDB backend support restaurant search, filtering, detail pages, menus, and an ordering interface.",
+      "highlights": ["Filters for location, cuisine, meal type, and price range", "Price sorting and paginated search results", "Restaurant details, menu selection, and a checkout integration"],
+      "stack": ["React", "Node.js", "Express", "MongoDB", "Mongoose"],
+      "links": [{"label": "Frontend source", "url": "https://github.com/shank1729/zomato-frontend"}, {"label": "Backend source", "url": "https://github.com/shank1729/zomato-backend"}]
+    },
+    "emotify": {
+      "name": "Emotify",
+      "shelfLabel": "Emotify",
+      "type": "IN PROGRESS / MOOD & MUSIC",
+      "text": "An app that uses facial expressions to recommend music for your mood.",
+      "details": "Emotify uses webcam input and emotion-recognition models to track facial expressions and suggest songs based on the detected mood.",
+      "highlights": ["Webcam-based facial-expression recognition", "Mood-based song recommendations", "Similar-song recommendations from users’ favorite Spotify tracks are coming next"],
+      "stack": [],
+      "links": []
+    },
+    "targeted": {
+      "name": "Targeted Ad Project",
+      "shelfLabel": "Targeted Ads",
+      "type": "REACT / AD DISPLAY",
+      "text": "An ad display that switches campaigns using audience details supplied by an API.",
+      "details": "A React frontend requests audience data from a local API and selects matching image or video ads. A Swiper carousel displays the campaign media, with QR links to campaign destinations.",
+      "highlights": ["Image and video campaigns in an autoplay carousel", "Campaign selection using audience attributes returned by an API", "QR links and fallback content when the API is unavailable"],
+      "stack": ["React", "JavaScript", "Axios", "Swiper", "qrcode.react"],
+      "links": [{"label": "View source", "url": "https://github.com/shank1729/targeted-ad-app"}]
+    },
+    "footfall": {
+      "name": "Footfall Dashboard",
+      "shelfLabel": "Footfall",
+      "type": "REACT / ANALYTICS PROTOTYPE",
+      "text": "A dashboard prototype exploring people counts, threshold alerts, and analytics views.",
+      "details": "Built with React and Recharts, with tabbed count, alert, and chart views. The current repository uses sample chart data and a fixed people count; live API integration and the heatmap are future work.",
+      "highlights": ["Tabbed navigation between counts, alerts, and analytics", "Threshold-based alert display", "Responsive area charts using sample data"],
+      "stack": ["React", "Recharts", "JavaScript", "CSS"],
+      "links": [{"label": "View source", "url": "https://github.com/shank1729/footfall-dashboard"}]
+    },
+    "atlas": {
+      "name": "My Portfolio",
+      "shelfLabel": "My Portfolio",
+      "type": "THREE.JS / BLENDER",
+      "text": "Shanks Studio is a portfolio you can visit: a cozy cyberpunk home with stories tucked into everyday objects.",
+      "details": "An editable Blender scene brought to the web with Three.js, animated cupboard doors, camera journeys, and a lightweight rigged character.",
+      "highlights": ["Clickable furniture opens projects, skills, and career stories", "Animated camera transitions and an orbitable 3D house", "Compressed GLB assets, reduced-motion support, and character animation"],
+      "stack": ["Three.js", "Blender", "JavaScript", "glTF / Draco", "Vite"],
+      "links": []
+    }
+  }
+}

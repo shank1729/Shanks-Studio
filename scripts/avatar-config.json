@@ -1,0 +1,16 @@
+{
+  "status": "Lightweight Spring variant; approved detailed version preserved separately",
+  "style": "spring-lite",
+  "skin": "#bd9277",
+  "hair": "#171518",
+  "shirt": "#272830",
+  "pants": "#303c4d",
+  "shoes": "#e4e1d7",
+  "glasses": true,
+  "glassesStyle": "slightly-larger-round-graphite",
+  "hairStyle": "parted-forehead-fringe-and-ponytail",
+  "eyeColor": "brownish-black",
+  "sideCurls": false,
+  "longHair": true,
+  "beard": false
+}

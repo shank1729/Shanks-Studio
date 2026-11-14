@@ -1,0 +1,32 @@
+node_modules/
+dist/
+tmp/
+__pycache__/
+*.py[cod]
+*.log
+*.blend1
+*.blend2
+*.pem
+*.key
+.ssh/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Keep the approved editable assets; leave archives and iteration screenshots local.
+assets/*
+!assets/cyber-home.blend
+!assets/spring-lite.blend
+!assets/shanks-studio-oracle-live.jpg
+!assets/spring-source/
+assets/spring-source/*
+!assets/spring-source/ATTRIBUTION.md
+
+# The active house embeds its character. Earlier exported experiments stay local.
+public/characters/
+public/models/*
+!public/models/cyber-home.glb
+!public/models/spring-lite.glb
+!public/models/floating-studio.glb
